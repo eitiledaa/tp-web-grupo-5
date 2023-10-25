@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="miFormulario">
+        <h2>Formulario de Contacto</h2>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <br><br>
+        <label for="apellido">Apellido:</label>
+        <input type="apellido" id="apellido" name="apellido" required>
+        <br><br>
+        <label for="peso">Peso:</label>
+        <textarea id="peso" name="peso" rows="1" cols="25" required></textarea>
+        <br><br>
+        <label for="estatura">Estatura:</label>
+        <textarea id="estatura" name="estatura" rows="1" cols="25" required></textarea>
+        <br><br>
+        <input type="button" value="Enviar" onclick="mostrarDatos()">
+        <input type="button" value="Limpiar" onclick="limpiarFormulario()">
+        </form>
+        <script>
+        function mostrarDatos() {
+        const nombre = document.getElementById("nombre").value;
+        const apellido = document.getElementById("apellido").value;
+        const peso = document.getElementById("peso").value;
+        const estatura = document.getElementById("estatura").value;
+        alert(mensaje);
+        }
+        function limpiarFormulario() {
+        document.getElementById("miFormulario").reset();
+        }
+        function mostrarDatos() {
+        document.getElementById("peso")/("estatura");
+        }
+        </script>
+</body>
+</html>
