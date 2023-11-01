@@ -1,5 +1,151 @@
+.header {
+    background-image: url(banderas\ rotas.png);
+}
+
 body { 
-    background-color:beige
+    background-color:lightgray
    
-}   
+}  
+ 
+*{ 
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+    vertical-align: baseline;
     
+}
+
+.head { 
+    justify-content: space-between;
+    height: 63px;
+    display: flex;
+    background: black;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}  
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: whitesmoke;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.navbar a:hover {
+    background: lightcoral;
+}
+
+.header { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    background:url(banderas\ rotas.png) no-repeat: center;
+    background-size: cover;
+}
+
+.title {
+    margin-bottom: 40px;
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: whitesmoke;
+}
+
+
+.linkyt {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid lightcyan;
+    color: white;
+    text-decoration: none;
+    background-color: darkred;
+}
+
+.linkyt:hover {
+    background: none;
+}
+
+.com {
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    line-height: 1.5em;
+}
+
+.reacciones {
+    height: 38vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+.medios {
+    height: 340vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+.tiktok {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid lightcyan;
+    color: white;
+    text-decoration: none;
+    background-color: darkred;
+}
+
+.ej2 {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid lightcyan;
+    color: white;
+    text-decoration: none;
+    background-color: darkred;
+}
+
+ .consecuencias {
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.5em;
+}
